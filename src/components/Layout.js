@@ -62,10 +62,30 @@ class Layout extends React.Component {
       >
         {header}
         {children}
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer
+          style={{
+            borderTop: '2px solid #eee',
+            padding: '1.5rem 0',
+          }}
+        >
+          <small>
+            &copy; {new Date().getFullYear()} Local.com.pk &ndash;{' '}
+            <a
+              href="https://www.facebook.com/localpakistan"
+              target="_blank"
+              rel="noopener"
+            >
+              Facebook
+            </a>{' '}
+            |{' '}
+            <a
+              href="https://www.twitter.com/localcompk"
+              target="_blank"
+              rel="noopener"
+            >
+              Twitter
+            </a>
+          </small>
         </footer>
       </div>
     )
