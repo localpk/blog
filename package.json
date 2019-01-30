@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "@localpk/blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "description": "Everything covering thoughts, ideas and progress of the project",
+  "version": "1.0.0",
+  "author": "Local.com.pk",
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.22",
@@ -41,20 +38,23 @@
     "gh-pages": "^2.0.1",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://localpk.github.io/blog",
   "keywords": [
-    "gatsby"
+    "pakistan",
+    "government",
+    "information",
+    "platform",
+    "blog"
   ],
   "license": "MIT",
-  "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/localpk/blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "test": "echo \"No tests\"",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "start": "npm run develop",
