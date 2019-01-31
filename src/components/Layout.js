@@ -79,11 +79,11 @@ class Layout extends React.Component {
             </a>{' '}
             |{' '}
             <a
-              href="https://www.twitter.com/localcompk"
+              href="https://www.twitter.com/jabranr"
               target="_blank"
               rel="noopener"
             >
-              Twitter
+              Twitter (@jabranr)
             </a>
           </small>
         </footer>
