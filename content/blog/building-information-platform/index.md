@@ -31,8 +31,8 @@ I have also created following channels including a Facebook Page and a Facebook 
 
 - GitHub Organisation – [https://www.github.com/localpk](https://www.github.com/localpk)
 - Facebook Page – [https://www.facebook.com/localpakistan](https://www.facebook.com/localpakistan)
-- Facebook Page Group – [https://www.facebook.com/groups/643030409449705](https://www.facebook.com/groups/643030409449705)
-- Twitter – [https://www.twitter.com/localcompk](https://www.twitter.com/localcompk)
+- ~~Facebook Page Group – [https://www.facebook.com/groups/643030409449705](https://www.facebook.com/groups/643030409449705)~~
+- ~~Twitter – [https://www.twitter.com/localcompk](https://www.twitter.com/localcompk)~~
 
 Once we have good basic set of content, we launch!
 
