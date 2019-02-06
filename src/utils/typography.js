@@ -1,17 +1,29 @@
 import Typography from 'typography'
-import Wordpress2016 from 'typography-theme-wordpress-2016'
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    'a.gatsby-resp-image-link': {
-      boxShadow: `none`,
+const typography = new Typography({
+  scaleRatio: 2,
+  baseLineHeight: 1.5,
+  headerFontFamily: ['Merriweather', 'georgia', 'serif'],
+  bodyFontFamily: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+  googleFonts: [
+    {
+      name: 'Merriweather',
+      styles: ['700'],
     },
-  }
-}
-
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+    {
+      name: 'Roboto',
+      styles: ['400', '400i', '500', '500i'],
+    },
+  ],
+  overrideThemeStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    blockquote: {
+      backgroundColor: '#eee',
+      padding: '10px',
+      borderLeft: '5px solid #999',
+      margin: 0,
+    },
+  }),
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
